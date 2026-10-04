@@ -1,0 +1,14 @@
+{
+  "pump1_h1_partial": {
+    "norm_only_acc_on_matched_test": 0.7266666666666667,
+    "norm_only_acc_on_confound_test": 0.9983333333333333,
+    "norm_only_acc_matched_test_using_confound_trained_threshold": 0.67,
+    "n_test_per_arm": 600
+  },
+  "leak_tank1_h1_partial": {
+    "norm_only_acc_on_matched_test": 0.6833333333333333,
+    "norm_only_acc_on_confound_test": 0.86,
+    "norm_only_acc_matched_test_using_confound_trained_threshold": 0.6583333333333333,
+    "n_test_per_arm": 600
+  }
+}

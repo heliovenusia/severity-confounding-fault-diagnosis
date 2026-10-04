@@ -1,0 +1,21 @@
+{
+ "pump1_h1_partial": {
+  "condition_id": "pump1_h1_partial",
+  "n_runs_per_class": 300,
+  "gamma_low": 0.05,
+  "gamma_high": 0.95,
+  "naive": {
+   "in_distribution_test_accuracy": 0.7733333333333333,
+   "on_balanced_test_accuracy": 0.8016666666666666,
+   "collapse": -0.02833333333333332,
+   "bayes_ceiling_for_naive_distribution": 0.8128333333333333,
+   "bayes_ceiling_se": 0.0050354626658589445,
+   "naive_indist_exceeds_its_own_ceiling": false
+  },
+  "reference_balanced": {
+   "test_accuracy": 0.7883333333333333,
+   "note": "trained AND tested on the regime-balanced distribution; exact Bayes ceiling for this 2-regime mixture was not recomputed, so only the empirical in-distribution-vs-balanced comparison is interpreted"
+  },
+  "interpretation": "gamma is never a model input feature; any collapse from naive in-distribution accuracy to accuracy-on-balanced-regime data would indicate the trajectory SHAPE itself leaks regime, which a model can exploit as an unintended shortcut correlated with class."
+ }
+}

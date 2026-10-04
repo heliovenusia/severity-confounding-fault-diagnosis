@@ -1,0 +1,48 @@
+{
+ "pump1_h1_partial": {
+  "condition_id": "pump1_h1_partial",
+  "n_runs_per_class": 300,
+  "reference": {
+   "n_train": 420,
+   "n_test": 180,
+   "xgb_accuracy": 0.7611111111111111,
+   "tcn_accuracy": 0.7555555555555555
+  },
+  "naive": {
+   "n_train": 2100,
+   "n_test": 900,
+   "xgb_accuracy": 0.8111111111111111,
+   "tcn_accuracy": 0.8177777777777778,
+   "run_id_overlap_train_test": 505,
+   "run_id_overlap_fraction_of_test_run_ids": 0.9960552268244576
+  },
+  "inflation": {
+   "xgb": 0.050000000000000044,
+   "tcn": 0.06222222222222229
+  },
+  "interpretation": "NAIVE protocol accuracy is NOT comparable to the clean-distribution Bayes reference (A*) for this condition -- overlapping windows from the same underlying trajectory in both train and test violate the independent-test-set assumption A* is built on. No Bayes ceiling is recomputed for this protocol because the overlapping-window protocol itself violates the independent-test-set assumption."
+ },
+ "leak_tank3_h1_partial": {
+  "condition_id": "leak_tank3_h1_partial",
+  "n_runs_per_class": 300,
+  "reference": {
+   "n_train": 420,
+   "n_test": 180,
+   "xgb_accuracy": 0.8388888888888889,
+   "tcn_accuracy": 0.8666666666666667
+  },
+  "naive": {
+   "n_train": 2100,
+   "n_test": 900,
+   "xgb_accuracy": 0.9166666666666666,
+   "tcn_accuracy": 0.9211111111111111,
+   "run_id_overlap_train_test": 505,
+   "run_id_overlap_fraction_of_test_run_ids": 0.9960552268244576
+  },
+  "inflation": {
+   "xgb": 0.07777777777777772,
+   "tcn": 0.054444444444444406
+  },
+  "interpretation": "NAIVE protocol accuracy is NOT comparable to the clean-distribution Bayes reference (A*) for this condition -- overlapping windows from the same underlying trajectory in both train and test violate the independent-test-set assumption A* is built on. No Bayes ceiling is recomputed for this protocol because the overlapping-window protocol itself violates the independent-test-set assumption."
+ }
+}

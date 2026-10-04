@@ -1,0 +1,23 @@
+{
+ "condition_id": "pump1_h1_partial",
+ "n_train": 2400,
+ "n_val": 800,
+ "n_test": 800,
+ "normalizer_shift": {
+  "max_abs_mean_shift": 0.0132857015000859,
+  "max_abs_std_shift": 0.009992032142685348,
+  "note": "how much the fitted mean/std actually differ between TRAIN-only and TRAIN+VAL+TEST fits -- small because TRAIN is already 60% of the data and VAL/TEST are drawn from the same generating process, not a distribution shift"
+ },
+ "xgboost": {
+  "train_only_normalization_accuracy": 0.80375,
+  "full_dataset_normalization_accuracy": 0.80375,
+  "difference": 0.0,
+  "verdict": "NULL BY CONSTRUCTION"
+ },
+ "logistic_regression": {
+  "train_only_normalization_accuracy": 0.83125,
+  "full_dataset_normalization_accuracy": 0.83125,
+  "difference": 0.0,
+  "verdict": "NULL (empirically negligible)"
+ }
+}

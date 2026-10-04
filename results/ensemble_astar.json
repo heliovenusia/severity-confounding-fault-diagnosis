@@ -1,0 +1,416 @@
+{
+ "pump1_h1_partial": {
+  "role": "ambiguous_case",
+  "verdict": "AMBIGUOUS",
+  "mechanism": "DIMENSION_FORCED",
+  "ensemble_astar": 0.81775,
+  "mc_se": 0.004316175064510244,
+  "convergence": {
+   "rows": [
+    {
+     "n_severity": 7,
+     "ensemble_astar": 0.8196666666666667,
+     "naive_se": 0.004963419893282961,
+     "decisions_flipped_since_prev_resolution": null
+    },
+    {
+     "n_severity": 15,
+     "ensemble_astar": 0.8198333333333333,
+     "naive_se": 0.0049616300898140476,
+     "decisions_flipped_since_prev_resolution": 3
+    },
+    {
+     "n_severity": 31,
+     "ensemble_astar": 0.8198333333333333,
+     "naive_se": 0.0049616300898140476,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 63,
+     "ensemble_astar": 0.8198333333333333,
+     "naive_se": 0.0049616300898140476,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 127,
+     "ensemble_astar": 0.8198333333333333,
+     "naive_se": 0.0049616300898140476,
+     "decisions_flipped_since_prev_resolution": 0
+    }
+   ],
+   "tol": 0.001,
+   "final_value": 0.8198333333333333,
+   "converged_at_n_severity": 7,
+   "declared_convergence_tol": 0.001,
+   "method": "common fixed test set (n_mc points, true continuous prior), paired decision-rule comparison across resolutions"
+  }
+ },
+ "pump1_h1_full": {
+  "role": "separated_control",
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "ensemble_astar": 0.85475,
+  "mc_se": 0.003939423141463735,
+  "convergence": {
+   "rows": [
+    {
+     "n_severity": 7,
+     "ensemble_astar": 0.851,
+     "naive_se": 0.004597082408078701,
+     "decisions_flipped_since_prev_resolution": null
+    },
+    {
+     "n_severity": 15,
+     "ensemble_astar": 0.8511666666666666,
+     "naive_se": 0.004594960504404477,
+     "decisions_flipped_since_prev_resolution": 1
+    },
+    {
+     "n_severity": 31,
+     "ensemble_astar": 0.8511666666666666,
+     "naive_se": 0.004594960504404477,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 63,
+     "ensemble_astar": 0.8511666666666666,
+     "naive_se": 0.004594960504404477,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 127,
+     "ensemble_astar": 0.8511666666666666,
+     "naive_se": 0.004594960504404477,
+     "decisions_flipped_since_prev_resolution": 0
+    }
+   ],
+   "tol": 0.001,
+   "final_value": 0.8511666666666666,
+   "converged_at_n_severity": 7,
+   "declared_convergence_tol": 0.001,
+   "method": "common fixed test set (n_mc points, true continuous prior), paired decision-rule comparison across resolutions"
+  }
+ },
+ "pump2_h1_partial": {
+  "role": "ambiguous_case",
+  "verdict": "AMBIGUOUS",
+  "mechanism": "DIMENSION_FORCED",
+  "ensemble_astar": 0.829125,
+  "mc_se": 0.004208276582744414,
+  "convergence": {
+   "rows": [
+    {
+     "n_severity": 7,
+     "ensemble_astar": 0.8331666666666667,
+     "naive_se": 0.0048131758784649694,
+     "decisions_flipped_since_prev_resolution": null
+    },
+    {
+     "n_severity": 15,
+     "ensemble_astar": 0.8331666666666667,
+     "naive_se": 0.0048131758784649694,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 31,
+     "ensemble_astar": 0.8331666666666667,
+     "naive_se": 0.0048131758784649694,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 63,
+     "ensemble_astar": 0.8331666666666667,
+     "naive_se": 0.0048131758784649694,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 127,
+     "ensemble_astar": 0.8331666666666667,
+     "naive_se": 0.0048131758784649694,
+     "decisions_flipped_since_prev_resolution": 0
+    }
+   ],
+   "tol": 0.001,
+   "final_value": 0.8331666666666667,
+   "converged_at_n_severity": 7,
+   "declared_convergence_tol": 0.001,
+   "method": "common fixed test set (n_mc points, true continuous prior), paired decision-rule comparison across resolutions"
+  }
+ },
+ "pump2_h1_full": {
+  "role": "separated_control",
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "ensemble_astar": 0.834,
+  "mc_se": 0.004159987980751868,
+  "convergence": {
+   "rows": [
+    {
+     "n_severity": 7,
+     "ensemble_astar": 0.8373333333333334,
+     "naive_se": 0.004764560529265741,
+     "decisions_flipped_since_prev_resolution": null
+    },
+    {
+     "n_severity": 15,
+     "ensemble_astar": 0.8376666666666667,
+     "naive_se": 0.0047606235974961345,
+     "decisions_flipped_since_prev_resolution": 2
+    },
+    {
+     "n_severity": 31,
+     "ensemble_astar": 0.8376666666666667,
+     "naive_se": 0.0047606235974961345,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 63,
+     "ensemble_astar": 0.8376666666666667,
+     "naive_se": 0.0047606235974961345,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 127,
+     "ensemble_astar": 0.8376666666666667,
+     "naive_se": 0.0047606235974961345,
+     "decisions_flipped_since_prev_resolution": 0
+    }
+   ],
+   "tol": 0.001,
+   "final_value": 0.8376666666666667,
+   "converged_at_n_severity": 7,
+   "declared_convergence_tol": 0.001,
+   "method": "common fixed test set (n_mc points, true continuous prior), paired decision-rule comparison across resolutions"
+  }
+ },
+ "leak_tank1_h1_partial": {
+  "role": "ambiguous_case",
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "ensemble_astar": 0.964125,
+  "mc_se": 0.0020793022980978497,
+  "convergence": {
+   "rows": [
+    {
+     "n_severity": 7,
+     "ensemble_astar": 0.965,
+     "naive_se": 0.002372586492979059,
+     "decisions_flipped_since_prev_resolution": null
+    },
+    {
+     "n_severity": 15,
+     "ensemble_astar": 0.965,
+     "naive_se": 0.002372586492979059,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 31,
+     "ensemble_astar": 0.965,
+     "naive_se": 0.002372586492979059,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 63,
+     "ensemble_astar": 0.965,
+     "naive_se": 0.002372586492979059,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 127,
+     "ensemble_astar": 0.965,
+     "naive_se": 0.002372586492979059,
+     "decisions_flipped_since_prev_resolution": 0
+    }
+   ],
+   "tol": 0.001,
+   "final_value": 0.965,
+   "converged_at_n_severity": 7,
+   "declared_convergence_tol": 0.001,
+   "method": "common fixed test set (n_mc points, true continuous prior), paired decision-rule comparison across resolutions"
+  }
+ },
+ "leak_tank1_h2_partial": {
+  "role": "separated_control",
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "ensemble_astar": 0.954625,
+  "mc_se": 0.0023269107571789265,
+  "convergence": {
+   "rows": [
+    {
+     "n_severity": 7,
+     "ensemble_astar": 0.954,
+     "naive_se": 0.002704440792474482,
+     "decisions_flipped_since_prev_resolution": null
+    },
+    {
+     "n_severity": 15,
+     "ensemble_astar": 0.954,
+     "naive_se": 0.002704440792474482,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 31,
+     "ensemble_astar": 0.954,
+     "naive_se": 0.002704440792474482,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 63,
+     "ensemble_astar": 0.954,
+     "naive_se": 0.002704440792474482,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 127,
+     "ensemble_astar": 0.954,
+     "naive_se": 0.002704440792474482,
+     "decisions_flipped_since_prev_resolution": 0
+    }
+   ],
+   "tol": 0.001,
+   "final_value": 0.954,
+   "converged_at_n_severity": 7,
+   "declared_convergence_tol": 0.001,
+   "method": "common fixed test set (n_mc points, true continuous prior), paired decision-rule comparison across resolutions"
+  }
+ },
+ "leak_tank3_h1_partial": {
+  "role": "ambiguous_case",
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "ensemble_astar": 0.865,
+  "mc_se": 0.0038205856880850087,
+  "convergence": {
+   "rows": [
+    {
+     "n_severity": 7,
+     "ensemble_astar": 0.8671666666666666,
+     "naive_se": 0.004381564387462711,
+     "decisions_flipped_since_prev_resolution": null
+    },
+    {
+     "n_severity": 15,
+     "ensemble_astar": 0.867,
+     "naive_se": 0.004383890965797393,
+     "decisions_flipped_since_prev_resolution": 1
+    },
+    {
+     "n_severity": 31,
+     "ensemble_astar": 0.867,
+     "naive_se": 0.004383890965797393,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 63,
+     "ensemble_astar": 0.867,
+     "naive_se": 0.004383890965797393,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 127,
+     "ensemble_astar": 0.867,
+     "naive_se": 0.004383890965797393,
+     "decisions_flipped_since_prev_resolution": 0
+    }
+   ],
+   "tol": 0.001,
+   "final_value": 0.867,
+   "converged_at_n_severity": 7,
+   "declared_convergence_tol": 0.001,
+   "method": "common fixed test set (n_mc points, true continuous prior), paired decision-rule comparison across resolutions"
+  }
+ },
+ "leak_tank3_h1_full": {
+  "role": "separated_control",
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "ensemble_astar": 0.86725,
+  "mc_se": 0.0037935378853386982,
+  "convergence": {
+   "rows": [
+    {
+     "n_severity": 7,
+     "ensemble_astar": 0.8655,
+     "naive_se": 0.004404727573868786,
+     "decisions_flipped_since_prev_resolution": null
+    },
+    {
+     "n_severity": 15,
+     "ensemble_astar": 0.8655,
+     "naive_se": 0.004404727573868786,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 31,
+     "ensemble_astar": 0.8655,
+     "naive_se": 0.004404727573868786,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 63,
+     "ensemble_astar": 0.8655,
+     "naive_se": 0.004404727573868786,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 127,
+     "ensemble_astar": 0.8655,
+     "naive_se": 0.004404727573868786,
+     "decisions_flipped_since_prev_resolution": 0
+    }
+   ],
+   "tol": 0.001,
+   "final_value": 0.8655,
+   "converged_at_n_severity": 7,
+   "declared_convergence_tol": 0.001,
+   "method": "common fixed test set (n_mc points, true continuous prior), paired decision-rule comparison across resolutions"
+  }
+ },
+ "leak_tank3_h3_full_own": {
+  "role": "ambiguous_case",
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "ensemble_astar": 0.958875,
+  "mc_se": 0.0022201839556385853,
+  "convergence": {
+   "rows": [
+    {
+     "n_severity": 7,
+     "ensemble_astar": 0.9578333333333333,
+     "naive_se": 0.0025945018432860702,
+     "decisions_flipped_since_prev_resolution": null
+    },
+    {
+     "n_severity": 15,
+     "ensemble_astar": 0.9578333333333333,
+     "naive_se": 0.0025945018432860702,
+     "decisions_flipped_since_prev_resolution": 4
+    },
+    {
+     "n_severity": 31,
+     "ensemble_astar": 0.9578333333333333,
+     "naive_se": 0.0025945018432860702,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 63,
+     "ensemble_astar": 0.9578333333333333,
+     "naive_se": 0.0025945018432860702,
+     "decisions_flipped_since_prev_resolution": 0
+    },
+    {
+     "n_severity": 127,
+     "ensemble_astar": 0.9578333333333333,
+     "naive_se": 0.0025945018432860702,
+     "decisions_flipped_since_prev_resolution": 0
+    }
+   ],
+   "tol": 0.001,
+   "final_value": 0.9578333333333333,
+   "converged_at_n_severity": 7,
+   "declared_convergence_tol": 0.001,
+   "method": "common fixed test set (n_mc points, true continuous prior), paired decision-rule comparison across resolutions"
+  }
+ }
+}

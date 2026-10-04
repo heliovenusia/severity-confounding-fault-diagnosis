@@ -1,0 +1,10 @@
+Developed and tested with Python 3.11.
+
+Exact package versions used to produce the released result files were
+not recorded. The package list in requirements.txt is sufficient to run
+every script in this release; if you need to match floating-point output
+to the last digit, pin recent stable releases of each package (as of
+2026) and note that neural network training (TCN) can still vary slightly
+run to run depending on hardware and library version, even with a fixed
+random seed. GLR and XGBoost results are deterministic given a fixed
+seed and do not have this issue.

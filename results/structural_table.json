@@ -1,0 +1,1010 @@
+[
+ {
+  "process": "pump1",
+  "sensor_idx": 0,
+  "ny": 2,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   1,
+   1,
+   1
+  ],
+  "r1": 7,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 1,
+  "d_cap": 1,
+  "d_cap_rank": 1,
+  "excess": 0,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "DIMENSION_FORCED",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump1",
+  "sensor_idx": 1,
+  "ny": 2,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   1,
+   1,
+   1
+  ],
+  "r1": 7,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 1,
+  "d_cap": 1,
+  "d_cap_rank": 1,
+  "excess": 0,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "DIMENSION_FORCED",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump1",
+  "sensor_idx": 0,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump1",
+  "sensor_idx": 1,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump1",
+  "sensor_idx": 2,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump1",
+  "sensor_idx": 3,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump2",
+  "sensor_idx": 0,
+  "ny": 2,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   1,
+   1,
+   1
+  ],
+  "r1": 7,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 1,
+  "d_cap": 1,
+  "d_cap_rank": 1,
+  "excess": 0,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "DIMENSION_FORCED",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump2",
+  "sensor_idx": 1,
+  "ny": 2,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   1,
+   1,
+   1
+  ],
+  "r1": 7,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 1,
+  "d_cap": 1,
+  "d_cap_rank": 1,
+  "excess": 0,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "DIMENSION_FORCED",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump2",
+  "sensor_idx": 0,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump2",
+  "sensor_idx": 1,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump2",
+  "sensor_idx": 2,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "pump2",
+  "sensor_idx": 3,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank1",
+  "sensor_idx": 0,
+  "ny": 2,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   4,
+   10,
+   22
+  ],
+  "r1": 6,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 0,
+  "d_cap": 6,
+  "d_cap_rank": 6,
+  "excess": 6,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank1",
+  "sensor_idx": 1,
+  "ny": 2,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 6,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank1",
+  "sensor_idx": 0,
+  "ny": 4,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   5,
+   11,
+   23
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 7,
+  "d_cap_rank": 7,
+  "excess": 7,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank1",
+  "sensor_idx": 1,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank1",
+  "sensor_idx": 2,
+  "ny": 4,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   1,
+   1,
+   1
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 1,
+  "d_cap_rank": 1,
+  "excess": 1,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank1",
+  "sensor_idx": 3,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank2",
+  "sensor_idx": 0,
+  "ny": 2,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 6,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank2",
+  "sensor_idx": 1,
+  "ny": 2,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   4,
+   10,
+   22
+  ],
+  "r1": 6,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 0,
+  "d_cap": 6,
+  "d_cap_rank": 6,
+  "excess": 6,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank2",
+  "sensor_idx": 0,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank2",
+  "sensor_idx": 1,
+  "ny": 4,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   5,
+   11,
+   23
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 7,
+  "d_cap_rank": 7,
+  "excess": 7,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank2",
+  "sensor_idx": 2,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank2",
+  "sensor_idx": 3,
+  "ny": 4,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   1,
+   1,
+   1
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 1,
+  "d_cap_rank": 1,
+  "excess": 1,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank3",
+  "sensor_idx": 0,
+  "ny": 2,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   4,
+   10,
+   22
+  ],
+  "r1": 6,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 0,
+  "d_cap": 6,
+  "d_cap_rank": 6,
+  "excess": 6,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank3",
+  "sensor_idx": 1,
+  "ny": 2,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 6,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank3",
+  "sensor_idx": 0,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank3",
+  "sensor_idx": 1,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank3",
+  "sensor_idx": 2,
+  "ny": 4,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   1,
+   1,
+   1
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 1,
+  "d_cap_rank": 1,
+  "excess": 1,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank3",
+  "sensor_idx": 3,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank4",
+  "sensor_idx": 0,
+  "ny": 2,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 6,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank4",
+  "sensor_idx": 1,
+  "ny": 2,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   4,
+   10,
+   22
+  ],
+  "r1": 6,
+  "r2": 6,
+  "ambient_dim": 12,
+  "generic_floor": 0,
+  "d_cap": 6,
+  "d_cap_rank": 6,
+  "excess": 6,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank4",
+  "sensor_idx": 0,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank4",
+  "sensor_idx": 1,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 7,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank4",
+  "sensor_idx": 2,
+  "ny": 4,
+  "gamma_star": 0.49999999999999994,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   0,
+   0,
+   0
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 0,
+  "d_cap_rank": 0,
+  "excess": 0,
+  "verdict": "SEPARATED",
+  "mechanism": "NOT_APPLICABLE",
+  "L": 8,
+  "gamma": 0.49999999999999994,
+  "tol": 1e-08
+ },
+ {
+  "process": "leak_tank4",
+  "sensor_idx": 3,
+  "ny": 4,
+  "gamma_star": 0.05,
+  "L_robust": [
+   6,
+   12,
+   24
+  ],
+  "d_cap_robustness": [
+   1,
+   1,
+   1
+  ],
+  "r1": 7,
+  "r2": 8,
+  "ambient_dim": 28,
+  "generic_floor": 0,
+  "d_cap": 1,
+  "d_cap_rank": 1,
+  "excess": 1,
+  "verdict": "AMBIGUOUS",
+  "mechanism": "EXCESS_FAULT_SPECIFIC",
+  "L": 8,
+  "gamma": 0.05,
+  "tol": 1e-08
+ }
+]

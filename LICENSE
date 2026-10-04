@@ -1,0 +1,22 @@
+Licensing
+
+Code
+----
+Unless otherwise noted, the source code in `src/` and `scripts/` is licensed
+under the MIT License. See `LICENSE_CODE`.
+
+Data and documentation
+----------------------
+The generated result files and repository documentation are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0). See
+`LICENSE_DATA`.
+
+Third-party material
+--------------------
+No rights are granted here for third-party material. In particular, Tennessee
+Eastman Process source data and simulator materials are not included in this
+repository.
+
+Copyright
+---------
+Copyright (c) 2026 Sethuraman Kannan

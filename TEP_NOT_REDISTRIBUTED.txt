@@ -1,0 +1,33 @@
+Tennessee Eastman Process (TEP) data and simulator: not included
+
+The paper uses the Tennessee Eastman Process simulator only as limited
+external corroboration that the paper's main finding (diagnostic
+representations are sensitive to the distribution used to construct a
+benchmark) is not specific to the quadruple-tank plant. TEP is not used
+as evidence for the severity-confounding experiment itself, which is
+fully self-contained in this release and does not depend on TEP in any
+way.
+
+This release does not include the TEP simulator source, the TEP
+Fortran/compiled components, or any TEP-derived trajectory data. TEP's
+original source and reference data are not bundled here because there is
+no clear redistribution license on record for this release. A reader who
+wants to regenerate the TEP-based figures must independently obtain an
+appropriately licensed implementation of the Downs-Vogel Tennessee
+Eastman Process simulator and its reference data; no specific source or
+license is prescribed here.
+
+The TEP-side analysis and model-training code used to produce the two
+reported TEP corroboration numbers (an accuracy figure for one fault pair
+that remains difficult to separate from normal operation, and a
+comparison between two different task framings for a second fault pair)
+is not included in this release either. That code depends directly on
+the TEP simulator above and separating it cleanly from TEP data handling
+was out of scope for this package. The two reported numbers themselves
+are stated plainly in the paper and are not reproducible from this
+repository.
+
+Everything else in this repository, including the main severity-matrix
+experiment, the GLR/XGBoost/TCN diagnostic probes, and the supporting
+shortcut and leakage audits, is fully self-contained and does not
+require TEP or any other external dataset.

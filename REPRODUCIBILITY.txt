@@ -1,0 +1,130 @@
+Reproducing the results in this paper
+
+1. Environment
+---------------
+
+Python 3.11 was used for development. Install the packages listed in
+environment/requirements.txt (numpy, scipy, torch, xgboost,
+scikit-learn). No GPU is required; the TCN classifier is small enough to
+train on CPU, though it will be slower.
+
+All scripts in scripts/ expect to be run from inside that directory, or
+with this folder's root on PYTHONPATH, since they import from src/ using
+sys.path manipulation at the top of each file (the same pattern used
+throughout: `sys.path.insert(0, str(Path(__file__).resolve().parents[1]))`).
+Running them with `python3 scripts/<name>.py` from this folder's root
+works without any extra setup.
+
+2. Running the severity-matrix experiment
+-------------------------------------------
+
+    python3 scripts/run_severity_matrix_full.py
+
+This regenerates the full experiment from scratch: it simulates fresh
+trajectories for all nine conditions, trains GLR, XGBoost, and three TCN
+seeds under both the matched and confounded severity policies, evaluates
+every trained model under both test policies, and writes
+results/severity_matrix_full/severity_matrix_full.json.
+
+At full scale (300 runs per class per condition, three TCN seeds) this
+takes a nontrivial amount of wall-clock time per condition; the original
+run reported a total of about 220 seconds of compute time on the
+hardware it was run on, excluding process startup, and your hardware may
+differ. GLR and XGBoost training is fast; TCN training is the slow part.
+To check the pipeline runs correctly before committing to the full run,
+temporarily lower N_RUNS_PER_CLASS near the top of the script (for
+example to 10 or 20) and restrict EXPERIMENT_MATRIX to its first entry;
+both are plain module-level constants.
+
+results/severity_matrix_full_results.json and
+results/severity_matrix_table.csv, as released here, are the archived
+output of a prior full run of this experiment, already checked against
+the numbers reported in the paper; running the command above does not
+regenerate or overwrite them. A fresh run writes its own output to
+results/severity_matrix_full/severity_matrix_full.json, a different
+filename in a different (gitignored) location, so the archived files and
+a fresh run's output can coexist without collision. GLR and XGBoost
+cells reproduce exactly given the same seeds. TCN cells can vary
+slightly run to run, since neural network training is not bit-for-bit
+reproducible across hardware and library versions even with a fixed
+seed; the direction and approximate size of every reported effect should
+still reproduce. No script in this release regenerates
+results/severity_matrix_table.csv from the JSON; the released CSV
+should be read as the archived table, not as something this release can
+recompute for you.
+
+3. Verifying the 2x2 result matrix
+-------------------------------------
+
+Open results/severity_matrix_table.csv directly. Each row is one
+(condition, model) pair with its four cells A_MM, A_MC, A_CM, A_CC.
+There are nine conditions times three models, giving 27 rows.
+
+4. Recomputing the reported contrasts
+----------------------------------------
+
+    python3 scripts/compute_contrasts.py
+
+This reads results/severity_matrix_table.csv, recomputes all six
+contrasts reported in the paper (matched-task competence loss,
+confounded-test ease, the factorial train-by-test interaction, the
+retained-confound simple effect, conventional-benchmark inflation, and
+direct confounded-to-matched collapse) directly from the four raw cells,
+and checks each one against the mean value reported in the paper. The
+factorial interaction (A_CC - A_CM - A_MC + A_MM) and the simple effect
+A_CC - A_MC are distinct quantities, and the script reports them separately.
+
+Pass --csv to point the script at a different table, for example one
+produced by your own rerun of step 2.
+
+5. Supporting audits and task characterization
+-------------------------------------------------
+
+Three supporting shortcut and leakage audits are included and are fully
+self-contained (they generate their own data via the same simulator used
+in step 2):
+
+    python3 scripts/run_shortcut_e1_window_leakage.py
+    python3 scripts/run_shortcut_e2_fixed_onset.py
+    python3 scripts/run_shortcut_e4_regime_confound.py
+
+Each writes its result under results/shortcut_audit/. A fourth audit
+result, results/shortcut_audit/e5_preprocessing_leakage.json, is
+included as a released result but its generation script is not part of
+this release, because it depends on a separately generated, frozen
+training dataset that is out of scope here; its reported effect is null
+(0 percentage points) and is a minor, secondary control, not one of the
+paper's main findings.
+
+Two further scripts regenerate the structural and Bayes-achievable task
+characterization used to describe (not evaluate) the nine conditions:
+
+    python3 scripts/run_structural_table.py
+    python3 scripts/run_ensemble_astar.py
+
+run_ensemble_astar.py is the slowest script in this release: it runs a
+Monte Carlo resolution-convergence check at several quadrature
+resolutions for every condition and can take several minutes.
+
+6. Figures
+-----------
+
+This release does not include a script that regenerates the paper's
+main figures (the intervention-matrix schematic, the full severity
+matrix plot, the headline contrast plot, the GLR threshold plot, the
+magnitude-only probe plot, and the compact control-audit plot). Those
+figures were produced directly from the same result files released here,
+but the plotting code that produced them was not preserved as a reusable
+script. A reader who wants to reproduce them should expect to write
+fresh plotting code against results/severity_matrix_table.csv,
+results/severity_matrix_full_results.json, and
+results/shortcut_audit/*.json; nothing about the underlying numbers is
+hidden, only the specific plotting script used for the paper's figures.
+
+7. Tennessee Eastman Process corroboration
+----------------------------------------------
+
+See TEP_NOT_REDISTRIBUTED.txt. The TEP-based corroboration in the paper
+is not reproducible from this repository; the TEP simulator, its
+reference data, and the analysis code that produced the two reported TEP
+numbers are all out of scope for this release.
